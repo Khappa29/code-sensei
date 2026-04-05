@@ -57,13 +57,7 @@ cd code-sensei
 
 ### 2. Load the agent instructions
 
-Point your AI agent or IDE at `CLAUDE.md`. The filename uses `_off` intentionally to prevent auto-loading — you control when the sensei is active.
-
-**With Claude Code:**
-```bash
-claude --append-system-prompt "$(cat CLAUDE.md)"
-```
-Or add it as a skill/hook in your Claude Code config.
+Point your AI agent or IDE at `CLAUDE.md`. Claude code reads this automatically, if you are using a different tool make sure to ask your agent to use these instructions.
 
 ### 3. Disable autocomplete
 
