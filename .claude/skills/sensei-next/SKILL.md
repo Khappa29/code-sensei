@@ -1,14 +1,23 @@
 ---
 name: sensei-next
-description: Recommend what the user should practice next. Reads memory files and session history to suggest the most valuable next exercise. Use when the user runs /sensei-next or asks what to practice next.
+description: Recommend what the user should practice next. Reads memory files and session history to suggest the most valuable next exercise. Optionally takes a roadmap file path to constrain the recommendation to the current roadmap theme. Use when the user runs /sensei-next or asks what to practice next.
 user-invocable: true
+argument-hint: "[roadmap file] (optional)"
 ---
 
 # sensei-next
 
 Recommend the next best thing to practice.
 
-## Steps
+## Roadmap mode (when a roadmap file is passed as argument)
+
+1. Read the roadmap file and find the line marked `**← current**` — this is the theme to practice.
+2. Read `memory/<tech>.md` to understand current proficiency.
+3. Output a short recommendation targeting that specific theme, and end with a prompt the user can paste directly to start the exercise. Do not suggest a different tech or topic — the roadmap drives the choice.
+
+## Free mode (no argument)
+
+### Steps
 
 Follow this steps in this order :
 
