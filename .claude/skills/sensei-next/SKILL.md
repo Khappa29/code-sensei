@@ -31,6 +31,7 @@ Follow this steps in this order :
    - **Important gaps :** What important elements does the user not master that constitutes a big gap in his skills ?
    - **Progress potential :** Based on the user's profile, what would be the next step that could take the user to another level ?
    - **User preferences :** Does the user show a particular preference in the past exercices ?
+   - **Consolidation:** Look at the Areas of improvements across memory files. If a topic was practiced only once or recently moved there (user needed help), it may be worth revisiting before moving on — the goal is to turn areas of improvement into strong points. A topic that was hinted at in only 1 session is a good candidate for a consolidation exercise. Weigh this against novelty: if the user has been repeating the same area many times, move on.
 
 4. Output a short, direct recommendation — 3 to 5 lines max:
    - Which tech and topic to practice

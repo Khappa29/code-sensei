@@ -68,7 +68,7 @@ Each memory file should contain these sections :
 A brief summary to describe the user proficiency in the technology (5 to 6 phrases). Only broad appreciations of the user's proficiency.
 
 # Strong Points 
-A section listing what the user has proven to be good and knowledgeable. It must be very concise, no extra word. See this section as information compressed. Although concise, this list can be long. This section should not contain elements where you helped or hinted the user. This only contains the strong points that the users showed to have without your help.
+A section listing what the user has proven to be good and knowledgeable. It must be very concise, no extra word. See this section as information compressed. Although concise, this list can be long. This section should not contain elements where you helped or hinted the user. This only contains the strong points that the users showed to have without your help. If you gave a teaching explanation before the exercise (e.g. explained a concept from scratch), anything the user did based on that explanation does NOT count as a strong point — it belongs in Areas of improvements.
 
 # Areas of improvements
 A section listing the elements on which the user has proven that the user could still improve. Information compressed style. You should add elements where you had to help the user / where you gave the user a hint.
