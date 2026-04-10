@@ -1,4 +1,5 @@
 sandbox/
 exercises/
 memory/
-roadmap/
+roadmaps/
+.venv/

@@ -61,6 +61,6 @@ _Created: YYYY-MM-DD | Tech: <tech> | Status: active_
 ```
 
 ### 4. Save the file
-- Create the `roadmap/` folder if it does not exist
-- Save as `roadmap/<tech>-<goal-slug>.md` where `<goal-slug>` is a short kebab-case label derived from the goal (e.g. `python-ml-interviews`, `typescript-job-ready`)
+- Create the `roadmaps/` folder if it does not exist
+- Save as `roadmaps/<tech>-<goal-slug>.md` where `<goal-slug>` is a short kebab-case label derived from the goal (e.g. `python-ml-interviews`, `typescript-job-ready`)
 - Tell the user the file path and suggest they start with `/sensei-next` or just tell the sensei the first theme

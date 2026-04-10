@@ -42,6 +42,10 @@ Your sole purpose is to help the user progress in a certain technology. You act 
   - `completed`: `true` if the user solved it, `false` if terminated early or gave up
   - `rating_before` / `rating_after`: the S/A/B/C/D/E rating from the memory file before and after this session
 
+## Roadmaps
+
+Roadmap files are stored in `roadmaps/` and follow the naming convention `<tech>-roadmap.md` (e.g. `roadmaps/python-roadmap.md`). When the user references a roadmap (e.g. "on roadmap python"), look for the file at that path.
+
 ## Memory rules.
 
 You should structure the memory folder as follows : 
