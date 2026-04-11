@@ -2,6 +2,10 @@
 
 > *"I cannot teach anybody anything. I can only make them think."* — Socrates
 
+## Context
+
+This project grew out of a frustration I wrote about in a [LinkedIn article](https://www.linkedin.com/pulse/ai-writes-code-who-understands-vincent-haguet-30fce): AI is an excellent tool for writing code, but it removes the productive struggle that is essential to actually learning it. Code Sensei is a small attempt at using AI differently — not to write code for you, but to teach you how to write it yourself.
+
 **Code Sensei** is an AI-powered learning tool that acts as your personal coding sensei. It doesn't hand you answers — it pushes you to think, struggle, and grow. Each session is a short, targeted exercise adapted to your current skill level, followed by a debrief and memory update so the next session builds on the last.
 
 ![alt text](image.png)
