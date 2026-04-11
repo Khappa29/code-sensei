@@ -12,7 +12,7 @@ Sync roadmap progress with what the memory files actually show.
 ## Steps
 
 ### 1. Find the active roadmap
-- List all files in `roadmap/` matching `*.md`
+- List all files in `roadmaps/` matching `*.md`
 - If a file was passed as argument, use it
 - If exactly one file has `Status: active`, use it
 - If multiple active roadmaps exist, list them and ask the user which one
@@ -38,7 +38,7 @@ Sync roadmap progress with what the memory files actually show.
 
 **If the theme is not yet mastered:**
 - Do not modify the roadmap file
-- Tell the user what evidence is missing and suggest running `/sensei-next roadmap/<file>.md` to keep practicing this theme
+- Tell the user what evidence is missing and suggest running `/sensei-next roadmaps/<file>.md` to keep practicing this theme
 
 ### 5. Report
 - Always explain the decision with one sentence referencing the specific memory evidence used

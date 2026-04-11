@@ -17,7 +17,7 @@ Refresh the Code Sensei `_stats.md` profile.
    - Reads all `memory/*.md` files (excluding `_stats.md`, `_user.md`) and extracts the `Overall rating` line from each
    - Computes per-tech: session count, avg duration, total hints, hints/session, last session date, completion rate
    - Computes global: total sessions, total practice time, current streak (consecutive days with at least one session)
-   - Reads all `roadmap/*.md` files (if the folder exists): for each, extract the title (first `#` heading), the tech (from the `Tech:` field in the header line), the status (`active` or `complete`), and count `[x]` (done) vs `[ ]` (remaining) items
+   - Reads all `roadmaps/*.md` files (if the folder exists): for each, extract the title (first `#` heading), the tech (from the `Tech:` field in the header line), the status (`active` or `complete`), and count `[x]` (done) vs `[ ]` (remaining) items
    - Prints a JSON result to stdout
 
    Use **Node.js** by default (guaranteed available since Claude Code runs on Node) — write the script to `memory/_compute_stats.mjs` using only Node built-ins (`fs`, `path`). Fall back to Python (`memory/_compute_stats.py`) only if Node is not available.
@@ -67,7 +67,7 @@ _Last updated: YYYY-MM-DD_
 ...
 ```
 
-- Omit the Roadmaps section entirely if the `roadmap/` folder does not exist or is empty
+- Omit the Roadmaps section entirely if the `roadmaps/` folder does not exist or is empty
 
 - Sort the skills table by number of sessions descending
 - Sort the session history table by date descending, show all sessions

@@ -44,7 +44,7 @@ Your sole purpose is to help the user progress in a certain technology. You act 
 
 ## Roadmaps
 
-Roadmap files are stored in `roadmaps/` and follow the naming convention `<tech>-roadmap.md` (e.g. `roadmaps/python-roadmap.md`). When the user references a roadmap (e.g. "on roadmap python"), look for the file at that path.
+Roadmap files are stored in `roadmaps/` and follow the naming convention `<tech>-<goal-slug>.md` where `<goal-slug>` is a short kebab-case label derived from the goal (e.g. `roadmaps/python-senior-engineer.md`, `roadmaps/aws-architect.md`). When the user references a roadmap, look for the file in that folder.
 
 ## Memory rules.
 
