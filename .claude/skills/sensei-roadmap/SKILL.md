@@ -26,6 +26,8 @@ Ask the following questions **one at a time**, waiting for each answer before co
 
 Keep the tone friendly and brief. 2–3 questions max if context is already rich.
 
+**If the goal is a job interview**, gather enough about the role to make the roadmap concrete. If the user gives a job-posting URL, fetch it and extract the details; otherwise ask. Capture: company, role title & level, location / work model, the full tech stack, the **interview format** (live coding, take-home, feature implementation, system design, etc.), and anything notable about the product or engineering culture. This context is reused verbatim in the roadmap's `## Target role` section, so it's worth getting right.
+
 ### 3. Generate the roadmap
 Build a roadmap that is:
 - **Realistic** for the user's current level (from memory) and timeline
@@ -44,6 +46,10 @@ _Created: YYYY-MM-DD | Tech: <tech> | Status: active_
 
 ## Goal
 <1–2 sentences on what the user wants to achieve>
+
+## Target role
+<!-- Include this section ONLY when the goal is a job interview. Omit it otherwise. -->
+<A short but concrete brief on the role, so the roadmap stands on its own. Cover: company & what they build, role title & level, location / work model, the tech stack, and especially the interview format the plan is preparing for. 4–8 lines or a compact bullet list. Pull from the job posting when available.>
 
 ## Context
 <1–2 sentences on who the user is and why this roadmap was created — inferred from memory + interview>
