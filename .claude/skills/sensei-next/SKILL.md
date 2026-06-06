@@ -14,6 +14,7 @@ Recommend the next best thing to practice.
 1. Read the roadmap file and find the line marked `**← current**` — this is the theme to practice.
 2. Read `memory/<tech>.md` to understand current proficiency.
 3. Output a short recommendation targeting that specific theme, and end with a prompt the user can paste directly to start the exercise. Do not suggest a different tech or topic — the roadmap drives the choice.
+4. **If the current item is a `🎯 Capstone`**, the exercise to generate is different: a bigger, integrative end-to-end build (~30 min for an experienced programmer) that combines the themes of that whole phase, meant to *validate* the user has learned them — not a single small concept. Say so in the recommendation, list the phase themes it will pull together, and set expectations that it's longer than a normal exercise.
 
 ## Free mode (no argument)
 

@@ -35,6 +35,7 @@ Build a roadmap that is:
 - **Phased** — group themes into 2–4 phases of increasing depth
 - **Estimated** — each phase has a rough time estimate (in hours), each theme has none (keep it light)
 - **Not too detailed** — themes, not individual exercises. 4–7 items per phase max.
+- **Capstone per phase** — the **last item of every phase** is a capstone exercise (prefix it `🎯 Capstone — `), not a small theme. Its job is to *validate* that the user actually learned the phase by forcing them to combine the phase's themes into one bigger end-to-end implementation — roughly **30 minutes for an experienced programmer** (the usual yardstick: read + understand + code + a little debug, no doc searches; the learner will take longer). Phrase it as a small integrative build that exercises the phase's themes together, not as a single isolated concept. This is a deliberate exception to the usual "≤10 min coding scope" rule.
 
 Mark the first incomplete theme with `**← current**`.
 
@@ -60,10 +61,12 @@ _Created: YYYY-MM-DD | Tech: <tech> | Status: active_
 - [ ] **← current** <theme>
 - [ ] <theme>
 - [ ] <theme>
+- [ ] 🎯 Capstone — <bigger integrative build that combines this phase's themes>
 
 ### Phase 2 — <name> (est. Xh)
 - [ ] <theme>
 - [ ] <theme>
+- [ ] 🎯 Capstone — <bigger integrative build that combines this phase's themes>
 ```
 
 ### 4. Save the file
